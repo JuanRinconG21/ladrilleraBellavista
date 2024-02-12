@@ -1,0 +1,32 @@
+@media screen and (max-width: 920px) and (min-width: 100px) { 
+    
+    #mostrarMenu{
+        display: block;
+        width: 100%;
+    }
+
+    #flotante{
+        width:70%;
+        height:100%;
+        left:-100%;
+        margin:0;
+        position: fixed;
+        background-color: rgba(252, 240, 240, 0.692);
+        position:absolute;
+    }
+
+    #flotante &gt; div {
+        display: block;
+    }
+
+    #flotante &gt; div &gt; a {
+        display:block;
+        float:none;
+    }
+
+    #flotante &gt; a {
+        display:block;
+    }
+
+
+}
